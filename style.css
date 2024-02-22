@@ -1,0 +1,74 @@
+/* Write some CSS below */
+h1, h2, h3 {
+	text-align: center;
+}
+/* Reset default margin and padding for all elements */
+body, h2, h3, h4, h5, h6, h7, h8, h9, p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* Apply the chosen Google Fonts to different elements */
+body {
+    font-family: 'Overpass', sans-serif;
+}
+h1 {
+    font-family: 'Chivo', sans-serif;
+    font-size: 8em;
+    font-weight: 700;
+    color: #FFFFFF; /* Set your desired color*/
+    margin-bottom: 120px;   
+}
+h2 {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+h4, h5, h6 , h7, h8 , h9 , p{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #888;
+    margin-bottom: 10px;
+}
+/* Style images to be responsive and have a margin at the bottom */
+.banner {
+    background-image: url('images/lake.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding:70px 0;
+    text-align: center;
+}
+body {
+  font-family: 'Overpass', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 20px;
+  box-shadow: 10 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+
